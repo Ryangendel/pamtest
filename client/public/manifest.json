@@ -1,0 +1,8 @@
+{
+  "short_name": "POC",
+  "name": "Proof of concept for JWT Authentication",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
