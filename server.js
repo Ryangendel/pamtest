@@ -33,7 +33,7 @@ require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
 
 db.mongoose
-  .connect(`mongodb://admin:P@ssword@ds151753.mlab.com:51753/heroku_hz3sshnp`, {
+  .connect(`mongodb://admin:Password@ds151753.mlab.com:51753/heroku_hz3sshnp`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
