@@ -31,9 +31,10 @@ const User = db.user;
 
 require('./routes/auth.routes')(app);
 require('./routes/user.routes')(app);
-
+//mongodb://admin2:password1@ds151753.mlab.com:51753/heroku_hz3sshnp
+//mongo mongodb+srv://admin2:P@ssword@cluster0-lhhfx.mongodb.net/test?retryWrites=true&w=majority
 db.mongoose
-  .connect(`mongodb://admin:P@ssword@ds151753.mlab.com:51753/heroku_hz3sshnp`, {
+  .connect(`mongodb+srv://admin2:P@ssword@cluster0-lhhfx.mongodb.net/test?retryWrites=true&w=majority`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
